@@ -1,0 +1,10 @@
+h1{
+    color: black;/* propiedad*/
+}
+body{
+    background-color:rgb(250, 241, 246);
+    text-align: inherit;
+}
+h2{
+    text-align:left;
+}

@@ -1,0 +1,93 @@
+:root {
+    --rosaTCD: #f76666;
+    --rojoTCD: #000;
+    font-family: 'Babylonica', cursive;
+    ;
+}
+
+/* h1{
+    color: red;
+      text-align: center; ადგილმდებარეობის არჩევა
+}
+h2{
+    color: rgb(211, 211, 228);
+    background-color: #f76666;ფონის ფერის ცვლილება 
+    text-transform:inherit;
+    margin: 200px 200px 0px 0px; ცვლის მოცულობას მოცემული ნაწილის ირგვლივ, ყოველთვის იწყება ზედა მხრიდან და მიდის საათის ისრის მიმართულებით
+    თუ მუვუთითებთ მხოლოდ ორ ზომას, პირველი ომა ცვლის ზედა და ქვედა ნაწილს , ხოლო მეორე მარჯვენას და მარცხენას 
+    padding: 20px; ზრდის გარშემოწერილობას მონიშნული ობიექტის ირვლივ
+  }
+  h3{
+   padding: 20px;
+   margin: 20px;
+    background-color:rgb(223, 186, 107);
+
+  }
+ html{
+    font-size: 62.5%;
+ }
+  
+ body{
+    font-size: 16px;
+ }
+ /*1 REM=10pc
+ .Mando{
+    color: green;
+ }
+ #Boli{
+    background-color: blue;
+ }
+  .Ej5 >p{ ავირჩევთ ნებისმიერ სექციას, მივანიჩოთ კლასს და შემდეგ
+    ავირჩევევთ კონკრეტულს რისი ცვლილებაც გვინდა მაგალითად პარაგრაფს. 
+
+    text-transform:uppercase;
+  }  */
+.Banner {
+    background-image: url(../IMG/1.png);
+}
+
+.Mando {
+    font-size: 47px;
+    background: rgba(248, 102, 102, 0.65);
+    margin-bottom: 10px;
+    display: block;
+    font-weight: 800;
+    padding: 35px;
+    color: #fff;
+    margin-top: 0;
+    line-height: 1.5;
+
+}
+
+.cc {
+    color: #fff;
+    border: 2px solid #000;
+    background: #000 no-repeat right 20px center;
+    border-radius: 0px;
+    float: right;
+    min-height: 50px;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 24px 94px;
+    text-decoration: none;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.fon {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #02052F;
+}
+
+.curso {
+    color: var(--rosaTCD);
+    font-size: 17px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    line-height: 1.2;
+    text-align: center;
+
+
+}
